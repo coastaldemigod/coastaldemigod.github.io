@@ -14,13 +14,6 @@ body {
   overflow-y: auto;
  }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -250px;
-  visibility: hidden;
-}
-
 .about {
   padding-top: 60px;
   text-align: center;
@@ -109,21 +102,6 @@ nav {
   }
 }
 
-.product-small.ml {
-  background-image: url("../../assets/img/oopsi3.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.product-small.cp {
-  background-color: #fafafa;
-}
-
-.product-small.cs {
-  background-color: #eeeeee;
-}
-
 .product-small h5 {
   color: #ce2626;
   font-size: 16px;
@@ -133,17 +111,21 @@ nav {
 .grow { 
   transition: all .2s ease-in-out; 
   }
-  
   .grow:hover { 
-  transform: scale(1.4); 
+    transform: scale(1.4); 
+    }
+  @media screen and (max-width:767px){
+    nav .grow:hover {
+      transform : scale(0.9);
+    }
+    
   }
-
 .shrink { 
   transition: all .2s ease-in-out; 
   }
   
-  .shrink:hover { 
-  transform: scale(0.9); 
+.shrink:hover { 
+   transform: scale(0.9); 
   }
 
 .footer-basic {
