@@ -6,7 +6,14 @@ $(document).ready(function(){
           'rgb(255, 255, 255) ' : 'transparent'
       })
     }
-    $(window).on('load resize scroll', checkScrollBar)
+    $(document).ready(function(){
+      $("nav").hover(function(){
+        $(this).css("background-color", "#fff");
+        }, function(){
+        $(this).css("background-color", "transparent");
+      });
     });
- 
+
+      $(window).on('load resize scroll', checkScrollBar)
+    });
     
