@@ -33,9 +33,11 @@ body {
 .more-about {
   padding: 20px;
 }
-.navbar:active{
-  background-color: #fff;
+
+nav:hover{
+  background-color: white !important;
 }
+
 nav {
   transition: background-color 0.5s ease;
 }
