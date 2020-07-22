@@ -15,7 +15,10 @@ body {
  }
 
 .about {
-  padding-top: 60px;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
   text-align: center;
 }
 
@@ -24,6 +27,10 @@ body {
 }
 
 .more-about {
+  padding: 5px; 
+}
+
+.tiles{
   padding: 20px;
 }
 
@@ -42,10 +49,6 @@ nav {
 .product-small .links {
   font-size: 17px;
   margin-bottom: 80px;
-}
-
-.product-small .links .learn-more {
-  margin-right: 20px;
 }
 
 .product-small.dark {
@@ -108,6 +111,8 @@ nav {
   font-weight: bold;
 }
 
+/*animation */
+
 .grow { 
   transition: all .2s ease-in-out; 
   }
@@ -127,6 +132,8 @@ nav {
 .shrink:hover { 
    transform: scale(0.9); 
   }
+
+/*footer */
 
 .footer-basic {
   padding: 40px 0;
