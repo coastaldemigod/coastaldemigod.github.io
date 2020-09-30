@@ -3,7 +3,7 @@
 # Welcome to my website https://coastaldemigod.github.io
 
 
-Milestones :-
+* ### Milestones :-
 
 ```  
 1. Navbar animation
@@ -13,7 +13,7 @@ Milestones :-
 5. Responsive Design 
 6. Material and quirky aesthetic
 ```
-Tech Stack :-
+* ### Tech Stack :-
 
 ```
 1. HTML
@@ -21,19 +21,19 @@ Tech Stack :-
 3. Javascript & Jquery
 ```
 
-Problems Faced <br>
+* ### Problems Faced <br>
 
-Initially I was stuck with a horizontal scrollbar . Then I couldn't get my margins right and they kept on overlapping on each other , here Bootstrap came to rescue . There were a lot many problems but the online community always came to my rescue . 
+> Initially I was stuck with a horizontal scrollbar . Then I couldn't get my margins right and they kept on overlapping on each other , here Bootstrap came to rescue . There were a lot many problems but the online community always came to my rescue . 
 <br>
 
-Scope of improvement<br>
+* ### Scope of improvement<br>
 
-While designing the website I haven't kept the performance in mind . Thus I need to work on the performance aspect of the website . I am also planning to include a notes and a blog section to the website .
+> While designing the website I haven't kept the performance in mind . Thus I need to work on the performance aspect of the website . I am also planning to include a notes and a blog section to the website .
 <br>
 
-What I learned <br>
+* ### What I learned <br>
 
-Well the journey wasn't very smooth for me but I surely learnt a great deal of stuff on my way to building this small website.
+> Well the journey wasn't very smooth for me but I surely learnt a great deal of stuff on my way to building this small website.
 <br>
 
 ## Adios.
