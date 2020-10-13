@@ -1,9 +1,9 @@
 var checkScrollBar = function(){
   if($(window).scrollTop()>1){
-    $('nav').addClass('navbar-animation');
+    $('nav').addClass('navbar-animation shadow-lg');
   }
   else {
-    $('nav').removeClass('navbar-animation');
+    $('nav').removeClass('navbar-animation shadow-lg');
   }
 };
 // This gives the navbar an animation

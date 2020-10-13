@@ -16,8 +16,6 @@ body {
 
 .navbar-animation {
   background-color:#fff;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
 }
 
 .about {
@@ -118,6 +116,11 @@ nav {
 }
 
 /*animation */
+
+.nav-item:hover {
+  border-bottom: 3px solid #05867e;
+  transition : 200ms;
+}
 
 .grow { 
   transition: all .2s ease-in-out; 
