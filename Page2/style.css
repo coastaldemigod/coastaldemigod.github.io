@@ -11,7 +11,7 @@ li{
 }
 .list-item:hover{
     background-color: #00FF41;
-    color:black;
+    color:#0D0208;
 }
 ol{
     margin: 30px; padding: 0px 30px 30px; 
@@ -26,6 +26,22 @@ footer{
     margin:0px 0px 0px 30px;
     padding:0px 0px 0px 30px;
     color:white;
+}
+.inputs{
+    text-align: center;
+}
+.ipbox{
+    padding:4px;
+    border: none;
+    border-bottom: 2px solid #00FF41;
+    background-color:#0D0208;
+    color: #00FF41;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
+.addbtn{
+  background-color: #0D0208; 
+  border: none;
 }
 @media screen and (max-width: 1200px) 
 { 
