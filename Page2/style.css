@@ -5,17 +5,17 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 li{
-   
     color: #00FF41;
- 
 }
 .list-item:hover{
-    background-color: #00FF41;
-    color:#0D0208;
+    background-color: #40ee6b;
+    color:#365233;
+    font-weight: 900;
 }
 ol{
     margin: 30px; padding: 0px 30px 30px; 
     column-count: 5;display: block;
+    column-gap: 50px;
 }
 .list-div{
     align-content: center;
