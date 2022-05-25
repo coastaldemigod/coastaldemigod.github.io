@@ -599,7 +599,7 @@ export const mov=[
     "Apaharan",
     "Fantastic Beasts: The secrets of Dumbledore",
     "Sonic: The hedgehog 2",
-    "The marvellous mr. maisel",
+    "The marvellous mrs. maisel",
     "Jersey",
     "The courier",
     "Bhool Bhulaiya 2"
