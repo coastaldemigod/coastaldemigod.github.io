@@ -7,6 +7,9 @@ body{
 li{
     color: #00FF41;
 }
+a{
+    text-decoration: none;
+}
 .list-item:hover{
     background-color: #40ee6b;
     color:#365233;

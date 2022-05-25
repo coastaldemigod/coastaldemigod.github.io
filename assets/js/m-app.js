@@ -8,9 +8,20 @@ var colors =[
   "#00FF41"
 ];
 
-for( var i=0;i<document.getElementsByTagName('li').length;i++)
+import {mov} from "./dt.js";
+
+// generating the movie list
+var movlist=document.getElementById('list-items');
+for(var i=0;i<mov.length;i++)
 {
-  document.getElementsByTagName('li')[i].style.color=colors[Math.floor(Math.random()*5+1)];
+  var a=document.createElement('a');
+  var movi=document.createTextNode(`${mov[i]}`);
+  a.appendChild(movi);
+  a.href=`https://www.google.com/search?q=${mov[i]}`
+  a.style.color=colors[Math.floor(Math.random()*5+1)];
+  var li=document.createElement('li');
+  li.appendChild(a);
+  movlist.appendChild(li);
 }
 
 var input = document.getElementsByClassName("ipbox")[0];
@@ -32,11 +43,11 @@ function add(){
     document.getElementsByClassName("list-items")[0].appendChild(ls);
     document.getElementsByClassName("ipbox")[0].value='';
     var li=document.getElementsByTagName('li');
-for( var i=0;i<li.length;i++)
-{
-  li[i].style.display = "";
-  li[i].style.color=colors[Math.floor(Math.random()*5+1)];
-}
+  for( var i=0;i<li.length;i++)
+  {
+    li[i].style.display = "";
+    li[i].style.color=colors[Math.floor(Math.random()*5+1)];
+  }
 }
 
 // to search already present titles
@@ -58,3 +69,7 @@ function search() {
     }
   }
 }
+
+// so that the html can use these functions (because this js file is a module)
+window.search=search
+window.add=add
