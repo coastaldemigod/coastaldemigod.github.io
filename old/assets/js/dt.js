@@ -613,8 +613,5 @@ export const mov = [
     "Jurassic World: Dominion",
     "SKY Castle",
     "Vikram",
-    "Ms Marvel",
-    "Everything Everywhere All at once",
-    "Lightyear",
-    "The gray man"
+    "Ms Marvel"
 ]
