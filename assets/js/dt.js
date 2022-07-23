@@ -1,4 +1,4 @@
-export const mov=[
+export const mov = [
     "The Godfather",
     "Iron Man",
     "The Shawshank Redemption",
@@ -602,5 +602,16 @@ export const mov=[
     "The marvellous mrs. maisel",
     "Jersey",
     "The courier",
-    "Bhool Bhulaiya 2"
+    "Bhool Bhulaiya 2",
+    "The lobster",
+    "Forrest Gump",
+    "The unbearable weight of massive talent",
+    "Eternally confused and eager for love",
+    "House of Gucci",
+    "Mohabbatein",
+    "Cha Cha Real Smooth",
+    "Jurassic World: Dominion",
+    "SKY Castle",
+    "Vikram",
+    "Ms Marvel"
 ]

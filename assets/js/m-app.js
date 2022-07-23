@@ -8,6 +8,11 @@ var colors =[
   "#00FF41"
 ];
 
+var colors2 =[
+  "#fd2d78",
+  "#eeeeee"
+]
+
 import {mov} from "./dt.js";
 
 // generating the movie list
@@ -18,7 +23,7 @@ for(var i=0;i<mov.length;i++)
   var movi=document.createTextNode(`${mov[i]}`);
   a.appendChild(movi);
   a.href=`https://www.google.com/search?q=${mov[i]}`
-  a.style.color=colors[Math.floor(Math.random()*5+1)];
+  a.style.color=colors2[Math.floor(Math.random()*colors2.length)];
   var li=document.createElement('li');
   li.appendChild(a);
   movlist.appendChild(li);
@@ -46,7 +51,7 @@ function add(){
   for( var i=0;i<li.length;i++)
   {
     li[i].style.display = "";
-    li[i].style.color=colors[Math.floor(Math.random()*5+1)];
+    li[i].style.color=colors2[Math.floor(Math.random()*colors2.length)];
   }
 }
 
@@ -70,6 +75,14 @@ function search() {
   }
 }
 
+function pick(){
+  var randompick=document.getElementById("pick");
+  var ele=Math.floor(Math.random()*mov.length);
+  randompick.innerHTML=(mov[ele] );
+  randompick.href=`https://www.google.com/search?q=${mov[ele]}`
+}
+
 // so that the html can use these functions (because this js file is a module)
 window.search=search
 window.add=add
+window.pick=pick

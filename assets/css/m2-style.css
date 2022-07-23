@@ -1,0 +1,106 @@
+html {
+    overflow-y: scroll;
+  }
+
+body {
+    background-color: #18191a;
+    font-family: monospace, "Courier New", Courier;
+    color: #eeeeee;
+    line-height: 1.8;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    /* max-width: 1200px; */
+}
+
+a {
+    text-decoration: none;
+    color: #fd2d78;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 2px solid #333;
+}
+
+#back:hover{
+    text-decoration: none;
+}
+
+.ipbox{
+    padding:4px;
+    border: none;
+    border-bottom: 2px solid #fd2d78;
+    background-color:#18191a;
+    color: #eeeeee;
+    font-family: monospace, "Courier New", Courier;
+    outline: none;
+    font-size: 18px;
+}
+.addbtn{
+  background-color: #18191a; 
+  border: none;
+}
+
+ol{
+    column-count: 4;
+    display: block;
+    word-wrap: normal;
+    column-gap: 50px;
+    max-width: 1200px;
+}
+
+
+@media screen and (max-width: 1200px) 
+{ 
+    ol{ 
+        column-count: 3; }
+}
+@media screen and (max-width: 800px) 
+{ 
+    ol{ 
+        column-count: 2; }
+}
+@media screen and (max-width: 600px) 
+{ 
+    ol{ 
+        column-count: 1; } 
+    }
+
+li{
+    color: #fd2d78;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eeeeee;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eeeeee;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #eeeeee;
+  }
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+    background: #222222;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #a31d4e;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #fd2d78;
+    }
