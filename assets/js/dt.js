@@ -635,5 +635,12 @@ export const mov = [
     "Guns and Gulabs",
     "One piece: Live action",
     "Naruto",
-    "Naruto: Shippuden"
+    "Naruto: Shippuden",
+    "Pain hustlers",
+    "A haunting in venice",
+    "A garden of words",
+    "To Me, the One Who Loved You",
+    "To Every You I've Loved Before",
+    "Game night",
+    "Only murders in the building"
 ]
