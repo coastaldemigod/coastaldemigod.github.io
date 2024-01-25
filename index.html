@@ -12,7 +12,7 @@
 
 <body>
     <br><br>
-    <table cellpadding="20" cellspacing="0">
+    <table cellpadding="20" cellspacing="0" id="main-table">
         <tbody>
             <tr>
                 <td>
@@ -22,13 +22,34 @@
                         </header>
                         <p>Hi there. I'm Shivansh.</p>
                         <p>The fun-loving guy next door who also happens to be a tech-geek.</p>
-                        <p>I am a final year student at Birla Institute of Technology, Mesra pursuing Majors in
-                            Information Technology. I hail from Agra, the city of Taj. <a href="#footer">Talk</a> to me about
+                        <p>I am a software developer at <a href="https://www.akto.io">akto.io</a> . I hail from Agra,
+                            the city of Taj. <a href="https://twitter.com/coastaldemigod">Talk</a> to me about
                             tech/sci-fi/books/cinema/art or just life in general.
                         </p>
                         <p>Cheers :)</p>
                         <h2 id="experience">Experience</h2>
-                        <h4 id="wellsfargo">Wells Fargo | <a>Software Engineering Intern [May 2022-July 2022]</a></h4>
+                        <h4 id="akto">Akto.io | <a href="https://github.com/notshivansh">Software developer [Aug
+                                2022-Present]</a></h4>
+                        <ul>
+                            <li>Built a ton of features including swagger imports, webhook integration, centralized
+                                logging storage,
+                                support for custom API collections, custom Auth and data types for APIs, custom test
+                                libraries among others
+                            </li>
+                            <li>Improved feature packaging and usage measurement for users.
+                            </li>
+                            <li>Released a complete UI revamp of the product with a team of 3 developers
+                            </li>
+                            <li>Built CI/CD support for akto as well as support for github actions.
+                            </li>
+                            <li>Built end-to-end AWS infra to individually call our testing modules to be available for
+                                tryout using pulumi
+                            </li>
+                            <li>Reduced the deployment time of our AWS services from 15 minutes to under 60 seconds
+                            </li>
+                            <li>Implemented nginx and envoy traffic collection modules</li>
+                        </ul>
+                        <h4 id="wellsfargo">Wells Fargo | <a>Software engineering intern [May 2022-July 2022]</a></h4>
                         <ul>
                             <li>Part of the Consumer and Small Business Banking Technology Team.
                             </li>
@@ -38,6 +59,11 @@
                             </li>
                             <li>Used Microsoft Azure to host and deploy code, automated jobs to the cloud.</li>
                         </ul>
+                        <h2 id="codestats"></h2>
+                        <h4 id="codestats-meta"></h4>
+                        <table id="codestats-table"></table>
+                        <ul id="lang"></ul>
+
                         <h2 id="projects">Projects</h2>
                         <ul>
                             <li><a href="https://github.com/coastaldemigod/noobCTF">noobCTF</a> A platform to host CTFs,
@@ -83,12 +109,15 @@
                         <h2 id="skills">Skills</h2>
                         <h4 id="languages">Languages</h4>
                         <ul>
-                            <li>C, C++, JavaScript, Python, Java</li>
+                            <li>Java, JavaScript, Go, C, C++, Python, bash</li>
                         </ul>
                         <h4 id="frameworks">Frameworks, Libraries and Tools</h4>
                         <ul>
-                            <li>Node.js, Express, Django, Flask, Spring Boot,
-                                MongoDB, JWT, git/GitHub, Figma, Microsoft Azure</li>
+                            <li>React, Vue, Node.js, Express, Django, Flask, Spring Boot,
+                                MongoDB, JWT, git/GitHub, Figma, Microsoft Azure, AWS [ EC2, S3, ECS, EKS, Cloudfront,
+                                CFT ], GCP, Terraform, pulumi, nginx,
+                                k8s
+                            </li>
                         </ul>
                         <h2 id="interests">Interests</h2>
                         <ul>
@@ -98,6 +127,24 @@
                                     href="https://www.behance.net/coastaldemigod">[Behance/coastaldemigod]</a></li>
                             <li>Chess <a href="https://lichess.org/@/coastaldemigod">[lichess]</a> <a
                                     href="https://www.chess.com/member/coastaldemigod">[chess.com]</a></li>
+                        </ul>
+                        <h2 id="education">Education</h2>
+                        <h4 id="uni">Birla Institute of Technology, Mesra | <a>Bachelor of Technology, Information
+                                Technology [2019-2023]</a></h4>
+                        <ul>
+                            <li>Grade: 9.02/10
+                            </li>
+                            <li>Led the Entrepreneurship development cell as technical lead and later as
+                                Director(Technology)
+                            </li>
+                            <li>Led the IEEE Student branch as Treasurer and Vice-chairman
+                            </li>
+                        </ul>
+                        <h4 id="school">Delhi Public School, Agra | <a>Science [2008-2019]</a></h4>
+                        <ul>
+                            <li>
+                                did some shit.
+                            </li>
                         </ul>
                         <h2 id="highlights">Past highlights</h2>
                         <ul>
@@ -128,7 +175,8 @@
                             <li><a href="/docs.html">docs</a> a list of resources, stuff, blogs</li>
                             <li><a href="/movies.html">movies</a> a list of movies, series I have seen</li>
                         </ul>
-                    </main><br>
+                    </main>
+                    <br>
                     <footer id="footer">
                         <hr size="1" noshade="">
                         <p style="text-align:right;">
@@ -148,6 +196,7 @@
     </table>
     <!-- </center>  -->
     <br><br>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
